@@ -42,16 +42,16 @@ const schema = new mongoose.Schema(
     processorResponse: {
       type: String,
     },
-    costumerEmail: {
+    customerEmail: {
       type: String,
     },
-    costumerName: {
+    customerName: {
       type: String,
     },
     customerMobile: {
       type: String,
     },
-    costumerDocument: {
+    customerDocument: {
       type: String,
     },
     billingAddress: {
