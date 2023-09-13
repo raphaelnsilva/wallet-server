@@ -2,7 +2,6 @@ import * as Yup from "yup";
 import parsePhoneNumber from "libphonenumber-js";
 import { cpf, cnpj } from "cpf-cnpj-validator";
 import valid from 'card-validator';
-
 import Cart from "../models/Cart";
 import TransactionService from "../services/TransactionService";
 
