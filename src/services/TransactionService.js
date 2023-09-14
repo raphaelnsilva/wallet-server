@@ -10,9 +10,7 @@ class TransactionService {
     customer,
     billing,
     creditCard,
-  }) 
-  
-  {
+  }) {
     const cart = await Cart.findOne({ code: cartCode });
     if(!cart) {
       throw `Cart was not found.`;
